@@ -171,7 +171,11 @@ def kostraFagdataFilter( mittfilter={}  ):
         mittfilter['vegsystemreferanse']       = 'Fv'
 
     if not 'tidspunkt' in mittfilter: 
-        mittfilter['tidspunkt']       = '2021-12-15'
+        mittfilter['tidspunkt']       = '2023-12-31'
+
+    print( f"\n\n=> KOSTRA fagdata filter, SJEKK DATO:\n")
+    print( mittfilter )
+    print( "\n")
 
     return mittfilter
 
