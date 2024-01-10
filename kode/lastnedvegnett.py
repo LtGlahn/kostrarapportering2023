@@ -9,13 +9,6 @@ import nvdbgeotricks
 import skrivdataframe
 
 
-def vegnetthelelandet( mittfilter={} ):
-    mittfilter = filtersjekk( mittfilter )
-
-    myGdf = nvdbgeotricks.vegnett2gdf( mittfilter=mittfilter )
-    return myGdf
-
-
 def fylker2023( myDf ):
     """
     Konstruerer fylkesnummer slik de var 2023-12-31 
@@ -43,7 +36,7 @@ def fylker2023( myDf ):
                     32 : 30, # 32 Akershus => 30 Viken
                     33 : 30, #      33 Buskerud => 30 Viken
                     39 : 38, # 39 Vestfold => 38 Vestfold og Telemark
-                    40 : 40, # 40 Telemark => 38 Vestfold og Telemark
+                    40 : 38, # 40 Telemark => 38 Vestfold og Telemark
                     55 : 54, # 55 Troms    => 54 Troms og Finnmark 
                     56 : 54,  # 56 Finnmark => 54 Troms og Finnmark 
                     3 : 3,   # Oslo, uendret
@@ -197,7 +190,7 @@ def filtersjekk( mittfilter={} ):
     mittfilter['adskiltelop']     = 'med,nei' 
     mittfilter['typeveg']         = 'kanalisertVeg,enkelBilveg,rampe,rundkjøring,gatetun' 
     # mittfilter['historisk']       = 'true'
-    mittfilter['tidspunkt']       = '2023-12-31'
+    # mittfilter['tidspunkt']       = '2023-12-31'
     mittfilter['veglenketype']       = 'hoved'
 
     return mittfilter

@@ -26,6 +26,8 @@ _Ikke ferdigskrevet, kommer snart - i mellomtiden kan du se på [fjorårets bruk
 | Riks-, fylkes-, kommune-, privat- og skogsbilveg                               |  1 | Kostra 01 - Vegnett hele landet.xlsx                       |
 |                                                                                |    | Kostra 01 - Vegnett hele landet 2024 fylker.xlsx           |
 |                                                                                |  2 | Kostra 02 - Fylkesveg med motorveg og motortrafikkveg.xlsx |
+| Fylkesveg uten fast dekke                                                      |  3 | Kostra 03 - Fylkesveg uten fast dekke.XLSX                 |
+| Fylkesveg med 4 felt                                                           |  4 | Kostra 04 - Fylkesveg med 4 felt.XLSX                      |
 
 
 
@@ -47,6 +49,8 @@ Rapporten har også en oppsummering per kommune. Ut fra en kost/nytte vurdering 
 >
 > Eneste unntak er 1508 Ålesund og 1580 Haram kommune: For å få riktige tall for 2023-kommunen 1507 Ålesund må man 
 > legge sammen data for 1508 Ålesund og 1580 Haram. (Som kjent var Haram en del av Ålesund før 1.1.2024). 
+
+Årets rapport har 16 km mindre riksveg enn i fjor. Dette skyldes at gamle europaveg-traséer er omklassifisert til fylkesveg i Agder og Vestland fylke. Slike omklassifiseringsprosesser er politisk styrt, og det kan gå både måneder og år før gamlevegen er omklassifisert etter at nyvegen er åpnet.
 
 
 ### Kostra 02 - Fylkesveg med motorveg og motortrafikkveg

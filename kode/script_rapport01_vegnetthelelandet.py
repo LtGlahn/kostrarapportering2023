@@ -5,13 +5,20 @@ import geopandas as gpd
 import STARTHER
 import lastnedvegnett  
 import skrivdataframe
+import nvdbgeotricks
 
 t0 = datetime.now()
 
 mittfilter = lastnedvegnett.filtersjekk(  )
 mittfilter['vegsystemreferanse'] = 'Ev,Rv,Fv,Kv,Sv,Pv'
 
-myGdf = lastnedvegnett.vegnetthelelandet( mittfilter=mittfilter )
+# mittfilter.pop( 'tidspunkt')
+# mittfilter['tidspunkt'] = '2023-12-31'
+
+# FJERNER tidspunkt-filter for nedlasting av vegnett
+
+myGdf = nvdbgeotricks.vegnett2gdf( mittfilter=mittfilter )
+
 myGdf.to_file( 'vegnetthelelandet.gpkg', layer='norge', driver='GPKG')
 # myGdf  = gpd.read_file( 'vegnetthelelandet.gpkg', layer='norge')
 
