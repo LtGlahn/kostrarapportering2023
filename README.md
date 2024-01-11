@@ -50,9 +50,21 @@ Rapporten har også en oppsummering per kommune. Ut fra en kost/nytte vurdering 
 > Eneste unntak er 1508 Ålesund og 1580 Haram kommune: For å få riktige tall for 2023-kommunen 1507 Ålesund må man 
 > legge sammen data for 1508 Ålesund og 1580 Haram. (Som kjent var Haram en del av Ålesund før 1.1.2024). 
 
-Årets rapport har 16 km mindre riksveg enn i fjor. Dette skyldes at gamle europaveg-traséer er omklassifisert til fylkesveg i Agder og Vestland fylke. Slike omklassifiseringsprosesser er politisk styrt, og det kan gå både måneder og år før gamlevegen er omklassifisert etter at nyvegen er åpnet.
+    Årets rapport har 16 km mindre riksveg enn i fjor. Dette skyldes at gamle europaveg-traséer er omklassifisert til fylkesveg i Agder og Vestland fylke. Slike omklassifiseringsprosesser er politisk styrt, og det kan gå både måneder og år før gamlevegen er omklassifisert etter at nyvegen er åpnet.
 
 
 ### Kostra 02 - Fylkesveg med motorveg og motortrafikkveg
 
 Her teller vi lengden av objektet _Motorveg (595)_ langs fylkesvegnettet. Det er såpass få (4 strekninger) at vi ramser dem opp per fylke og vegnummer. Vi teller med eventuelle kryssdeler, men ikke med sideanlegg eller strekninger med _adskilte løp=Mot_. 
+
+### Kostra 03 - Fylkesveg uten fast dekke
+
+Her finner vi lengden av objekttypen _Vegdekke (241)_ langs fylkesveg med egenskapfilteret _massetype = Grus_, og skiller tall for vanlig bilveg (trafikantgruppe K) fra tall for gående og syklende (trafikantgruppe G) i egne faner. Vi teller ikke med sideanlegg og _adskilte løp = Mot_. 
+
+### Kostra 04 - Fylkesveg med 4 felt
+
+Her teller vi lengden av vegnett som har fire eller flere felt. Vi regner ikke med kjørefelt av typene sykkelfelt, fergeoppstillingsplass og ekstra felt ved bomstasjoner. Vi teller heller ikke med kryssdeler, sideanlegg og konnekteringslenker, og heller ikke _adskilte løp = Mot_. 
+
+Denne rapporten er laget med applikasjonen ["NVDB rapporter for KOSTRA"](https://nvdb-kostra.atlas.vegvesen.no/ ) med [disse valgene](https://raw.githubusercontent.com/LtGlahn/kostrarapportering2021/master/bilder/lastned04-firefeltsfylkesveg.png) 
+
+
