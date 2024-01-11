@@ -101,3 +101,16 @@ Vi har ingen forekomster med fylkesveger uten fast dekke (dvs objekttypen _Vegde
 ### Kostra 12
 
 Her teller vi objekttypen _Trafikkmengde (540)_ med egenskapverdien _ÅDT, total_ større enn 5000 kjøretøy per døgn langs fylkesveger. 
+
+### Kostra 13 og 14 Tunneller på fylkesveg, antall og lengde
+
+Her teller vi antall og samlet lengde for tunneler på fylkesveg. Analysen er en sammenstilling av objekttypene _Tunnelløp (67)_ og _Tunnel (581)_. Hvis _tunnel_ - objektet har egenskapen _Lengde, offisiell_ så bruker vi denne for å regne ut lengdene. Hvis ikke henter vi lengden fra tunnelløpet, enten fra tunnelløpets egenskap _Lengde_ eller fra tunnelløpets utstrekning langs vegnettet. 
+
+### Kostra 15 Tunneller lengre enn 500 meter på fylkesveg 
+
+Samme metodikk som for kostra 13 og 14, men nå teller vi kun antall og lengde for de tunnellene som er lengre enn 500 meter.
+
+### Kostra 16 Tunneller på fylkesveg med høyde under 4 meter
+
+Her finner vi objekttypene _Tunnel (581)_ og _Tunnelløp (67)_ som overlapper med objekttypen _Høydebegrensning (591)_ som har egenskapverdi _Skilta høyde_ lavere enn 4 meter. For å finne lengden av tunneller bruker vi samme metode som Kostra 13, 14 og 15. 
+
