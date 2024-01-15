@@ -16,10 +16,25 @@ Dette ut fra en kost/nytte vurdering - hovedfokus for denne KOSTRA-rapporteringe
 
 # Nedlasting 
 
-_Ikke ferdigskrevet, kommer snart - i mellomtiden kan du se på [fjorårets bruksanvnisning](https://github.com/LtGlahn/kostrarapportering2022#nedlasting)_
+Årets leveranse publiseres på github på adressen [https://github.com/LtGlahn/kostrarapportering2022](https://github.com/LtGlahn/kostrarapportering2022). På github kan du lettvint laste ned data med den grønne knappen _"Code" -> "Download ZIP"_ , plassert oppe til høyre.
+
+Eller bruk [denne lenken](https://github.com/LtGlahn/kostrarapportering2023/archive/refs/heads/master.zip) 
 
 
-### Filstruktur 
+![Nedlasting, hele arkivet](./bilder/lastnedrepos.png)
+
+Nedlasting av enkeltrapporter er ørlite grann mer plundrete, og krever at du navigerer deg fram til riktig rapport, klikker på den og så kan du laste ned: 
+  * Gå til mappen [kostraleveranse2023](https://github.com/LtGlahn/kostrarapportering2023/tree/master/kostraleveranse2023)
+  * Klikk på en fil, for eksempel [Kostra 16 - tunnel u 4m.xlsx](https://github.com/LtGlahn/kostrarapportering2023/blob/master/kostraleveranse2023/Kostra%2016%20-%20tunnell%20u%204m.xlsx)
+  * Klikk på _Download_ - knappen 
+
+![Nedlasting, enkelt fil](./bilder/lastnedfil.png)  
+
+
+### Filstruktur
+
+Årets leveranse ligger i undermappen [`kostraleveranse2023`](https://github.com/LtGlahn/kostrarapportering2023/tree/main/kostraleveranse2022). Øvrige mapper inneholder kode og dokumentasjon. 
+
 
 | Navn formell bestilling                                              |  Nummerering | Filnavn                                                    |
 |--------------------------------------------------------------------------------|----|------------------------------------------------------------|
