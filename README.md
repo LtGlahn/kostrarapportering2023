@@ -16,7 +16,7 @@ Dette ut fra en kost/nytte vurdering - hovedfokus for denne KOSTRA-rapporteringe
 
 # Nedlasting 
 
-Årets leveranse publiseres på github på adressen [https://github.com/LtGlahn/kostrarapportering2022](https://github.com/LtGlahn/kostrarapportering2022). På github kan du lettvint laste ned data med den grønne knappen _"Code" -> "Download ZIP"_ , plassert oppe til høyre.
+Årets leveranse publiseres på github på adressen [https://github.com/LtGlahn/kostrarapportering2023](https://github.com/LtGlahn/kostrarapportering2023). På github kan du lettvint laste ned data med den grønne knappen _"Code" -> "Download ZIP"_ , plassert oppe til høyre.
 
 Eller bruk [denne lenken](https://github.com/LtGlahn/kostrarapportering2023/archive/refs/heads/master.zip) 
 
